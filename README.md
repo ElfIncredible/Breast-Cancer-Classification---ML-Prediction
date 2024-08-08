@@ -17,3 +17,11 @@ The goal is to predict whether someone has breast cancer or not.
 sets up the necessary imports and initial steps for a machine learning workflow.
 
 ### Data collection and processing
+- Load the breast cancer dataset, convert it into a pandas DataFrame.
+- Add a target column for class labels (benign or malignant).
+- Inspect the DataFrame by displaying its shape, summary statistics, and checking for missing values.
+- Analyze the distribution of the target variable,
+- Group the data by label to calculate mean feature values
+- Rename columns for better clarity.
+
+### 
