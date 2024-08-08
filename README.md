@@ -9,6 +9,9 @@ The goal is to predict whether someone has breast cancer or not.
   - [Data collection and processing](#data-collection-and-processing)
   - [Separating features and target](#separating-features-and-target)
   - [Split data into train and test data](#split-data-into-train-and-test-data)
+  - [Model training - Logistic Regression](#model-training---ogistic-regression)
+  - [Model evaluation - Accuracy Score](#model-evaluation---accuracy-score)
+  - [Building a predictive system](#building-a-predictive-system)
 
 ## Project Overview
 
@@ -37,3 +40,14 @@ sets up the necessary imports and initial steps for a machine learning workflow.
 - Split the dataset into training and testing sets, allocating 80% of the data for training and 20% for testing, with a fixed random seed (3) to ensure the results are reproducible.
 - Print the shapes of the original dataset and the resulting training and testing sets.
 - Initialize a StandardScaler to standardize the feature values and fits the scaler on the training data.
+
+### Model training - Logistic Regression
+- Create an instance of the LogisticRegression class for binary classification and train this model using the training data (X_train and y_train).
+- The fit method adjusts the model parameters to best learn the relationship between the input features and target labels in the training set.
+
+### Model evaluation - Accuracy Score
+- Make predictions on both the training and test datasets using the trained logistic regression model (lr).
+- Calculate the accuracy of these predictions by comparing them to the actual labels.
+- The accuracy for the training data and the test data is then printed to assess the model's performance on each dataset.
+
+### Building a predictive system
