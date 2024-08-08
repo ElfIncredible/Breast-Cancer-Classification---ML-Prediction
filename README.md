@@ -1,6 +1,6 @@
 # Breast Cancer Classification - ML Prediction
 This project involves building and deploying a logistic regression model to classify breast cancer as malignant or benign.  
-** Demonstrate a typical workflow for analyzing a dataset, training a machine learning model, evaluating its performance, and making predictions on new data for a binary classification task related to breast cancer detection.
+
 ## Table of Content
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
@@ -30,6 +30,7 @@ Develop and deploy a logistic regression model to classify breast cancer as mali
 
 A functional model for accurate breast cancer classification, with a complete pipeline for data processing, model training, and prediction.
 ## Dataset
+The [dataset](https://www.kaggle.com/datasets/merishnasuwal/breast-cancer-prediction-dataset) provides a comprehensive set of features that capture various characteristics of the tumors, enabling the logistic regression model to effectively distinguish between malignant and benign cases.
 
 ## Machine Learning Prediction
 ### Install dependencies
