@@ -12,6 +12,7 @@ The goal is to predict whether someone has breast cancer or not.
   - [Model training - Logistic Regression](#model-training---ogistic-regression)
   - [Model evaluation - Accuracy Score](#model-evaluation---accuracy-score)
   - [Building a predictive system](#building-a-predictive-system)
+  - [Saving the trained model](#saving-the-trained-model)
 
 ## Project Overview
 
@@ -51,3 +52,10 @@ sets up the necessary imports and initial steps for a machine learning workflow.
 - The accuracy for the training data and the test data is then printed to assess the model's performance on each dataset.
 
 ### Building a predictive system
+The predictive system:
+- Takes a single input data point with features related to breast cancer.
+- Converts it into a NumPy array, and reshapes it to match the format required for model prediction.
+- Uses the trained logistic regression model (lr) to predict whether the cancer is malignant (0) or benign (1).
+- Print the prediction and provide an interpretation of whether the cancer is malignant or benign based on the model's output.
+
+### Saving the trained model
