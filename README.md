@@ -1,5 +1,5 @@
 # Breast Cancer Classification - ML Prediction
-The goal is to predict whether someone has breast cancer or not.  
+This project involves building and deploying a logistic regression model to classify breast cancer as malignant or benign.  
 ** Demonstrate a typical workflow for analyzing a dataset, training a machine learning model, evaluating its performance, and making predictions on new data for a binary classification task related to breast cancer detection.
 ## Table of Content
 - [Project Overview](#project-overview)
@@ -9,13 +9,26 @@ The goal is to predict whether someone has breast cancer or not.
   - [Data collection and processing](#data-collection-and-processing)
   - [Separating features and target](#separating-features-and-target)
   - [Split data into train and test data](#split-data-into-train-and-test-data)
-  - [Model training - Logistic Regression](#model-training---ogistic-regression)
+  - [Model training - Logistic Regression](#model-training---logistic-regression)
   - [Model evaluation - Accuracy Score](#model-evaluation---accuracy-score)
   - [Building a predictive system](#building-a-predictive-system)
   - [Saving the trained model](#saving-the-trained-model)
 
 ## Project Overview
+**Objective:**
 
+Develop and deploy a logistic regression model to classify breast cancer as malignant or benign.
+
+**Goals:**
+
+- **Data Handling:** Load, preprocess, and split the breast cancer dataset.
+- **Model Training:** Train and evaluate a logistic regression model on the data.
+- **Prediction:** Use the model to predict and interpret new cases.
+- **Persistence:** Save and load the model and scaler for future use.
+
+**Outcome:**
+
+A functional model for accurate breast cancer classification, with a complete pipeline for data processing, model training, and prediction.
 ## Dataset
 
 ## Machine Learning Prediction
@@ -59,3 +72,7 @@ The predictive system:
 - Print the prediction and provide an interpretation of whether the cancer is malignant or benign based on the model's output.
 
 ### Saving the trained model
+- Save and load a trained logistic regression model and scaler using pickle.
+- Use the loaded model and scaler to make a prediction on new input data, standardizing the data before prediction,
+- Print whether the cancer is malignant or benign based on the result.
+Saving the model also helps in developing APIs and/or web-apps
